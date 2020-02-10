@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+#intro{
+    font-size: 250%;
+}
+
+#introPage{
+    text-align: center;
+    margin-top: 33%;
+    margin-bottom: 33%;
+}
+#viewMyWork{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
