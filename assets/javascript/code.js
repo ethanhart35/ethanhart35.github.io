@@ -1,4 +1,6 @@
-$("#viewMyWork").on("click", function(){
-    document.location("projects.html");
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+
 
 });
