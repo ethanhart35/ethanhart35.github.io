@@ -14,3 +14,16 @@ body{
     margin-top: 7%;
     margin-bottom: 7%;
 }
+a {
+    color: grey;
+    font-size: 50px;
+    font-weight: 250;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+.card-img-top{
+    height: 190px;
+    width: auto;
+}
