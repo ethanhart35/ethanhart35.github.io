@@ -16,7 +16,10 @@ h2.intro{
     font-size: 250%;
     color: white;
 }
-
+.aboutMeText{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #introPage{
     text-align: center;
     margin-top: 33%;
@@ -26,15 +29,7 @@ h2.intro{
     margin-top: 7%;
     margin-bottom: 7%;
 }
-a {
-    color: white;
-    font-size: 50px;
-    font-weight: 250;
-}
-h1 {
-    font-size: 60px;
-    font-weight: 500;
-}
+
 .card{
     text-align: center;
     background-color: transparent;
