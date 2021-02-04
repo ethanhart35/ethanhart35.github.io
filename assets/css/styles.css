@@ -1,0 +1,12 @@
+.logo {
+    position: fixed;
+}
+
+.navlink {
+    right: 0px;
+    direction: rtl;
+}
+
+.navlinks {
+    display: inline;
+}
