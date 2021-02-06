@@ -25,8 +25,8 @@ body, body *{
 }
 
 a{
-    display: block;
-    padding: 8px;
+    display: inline-block;
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -39,17 +39,19 @@ a:hover, a:visited, a:link, a:active
 
 a:hover{
     transition-property: font-size;
-    transition-duration: .8s;
+    transition-duration: .5s;
     font-size: 25px;
     font-weight: bolder;
-    color:peachpuff
+    color:peachpuff;
 }
 
 .intro{
     display: inline-block;
 }
 
-
+.hamburger{
+    visibility: hidden;
+}
 
 
 
@@ -100,6 +102,10 @@ body {
     @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
  *, *:before, *:after {
 	 box-sizing: border-box;
+}
+
+.hamburger{
+    visibility:visible;
 }
  html {
 	 font-size: 18px;
