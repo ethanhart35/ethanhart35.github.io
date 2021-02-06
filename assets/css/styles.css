@@ -1,10 +1,19 @@
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
 .logo {
-    position: fixed;
+    position: relative;
 }
 
 .navlink {
-    right: 0px;
-    direction: rtl;
+    position: absolute;
+    left: 80%;
+    padding: 0;
 }
 
 .navlinks {
