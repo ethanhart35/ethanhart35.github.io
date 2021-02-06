@@ -8,11 +8,25 @@ nav {
 
 .logo {
     position: relative;
+    padding-left: 3%;
+    font-size: 400%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        position: relative;
+        padding-left: 3%;
+        font-size: 300%;
+    }
+    .navlink{
+        display: none;
+    }
 }
 
 .navlink {
-    position: absolute;
+    position: fixed;
     left: 80%;
+    top: 8%;
     padding: 0;
 }
 
