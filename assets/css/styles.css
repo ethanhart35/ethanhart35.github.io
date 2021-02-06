@@ -1,5 +1,5 @@
-body{
-    font-family: 'Exo', sans-serif;
+body, body *{
+    font-family: 'Exo', sans-serif !important;
 }
 
 nav {
@@ -24,7 +24,7 @@ nav {
 }
 
 .navlink {
-    position: fixed;
+    position:fixed;
     left: 80%;
     top: 8%;
     padding: 0;
@@ -32,4 +32,17 @@ nav {
 
 .navlinks {
     display: inline;
+    text-decoration: none;
+    padding-left: 10%;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover{
+    transition-property: font-size;
+    transition-duration: 0.3s;
+    font-size: 20px;
 }
