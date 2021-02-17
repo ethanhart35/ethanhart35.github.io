@@ -10,12 +10,13 @@ body, body *{
     margin-right: 3%;
     font-size: 400%;
     opacity: 50%;
+	cursor: pointer;
 }
 
 .navlink {
     position: absolute;
     right: 8%;
-    top: 6%;
+    top: 5%;
     padding: 0;
     display: inline-block;
 }
