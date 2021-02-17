@@ -1,9 +1,26 @@
-function myFunction(){
-    if(document.getElementById("logo").innerHTML=="Hello There"){
-        (document.getElementById("logo").innerHTML="Ethan Hart");
-    }
-    else if(document.getElementById("logo").innerHTML=="Ethan Hart"){
-        (document.getElementById("logo").innerHTML="Hello There");
-    }
-    console.log("function run")
-};
+
+$(document).ready(function(){
+
+
+
+
+    $(".logo").click(function(){
+      if(this.innerHTML=="Ethan Hart"){
+          this.innerHTML="Hello There"
+      }
+      else if (this.innerHTML=="Hello There"){
+          this.innerHTML="Ethan Hart"
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+    
+  });
