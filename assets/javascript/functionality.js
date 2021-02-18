@@ -5,12 +5,23 @@ $(document).ready(function(){
 
 
     $(".logo").click(function(){
-      if(this.innerHTML=="Ethan Hart"){
-          this.innerHTML="Hello There"
-      }
-      else if (this.innerHTML=="Hello There"){
-          this.innerHTML="Ethan Hart"
-      }
+            if(this.innerHTML=="Ethan Hart"){
+                $(".logo").fadeOut("slow", function(){
+                this.innerHTML="Hello There"
+              })
+                $(".logo").fadeIn("slow", function(){
+                    return
+                })
+            }
+            if(this.innerHTML=="Hello There"){
+                $(".logo").fadeOut("slow", function(){
+                    this.innerHTML="Ethan Hart"
+                })
+                $(".logo").fadeIn("slow", function(){
+                    return
+                })
+              }
+      
     });
 
 
@@ -22,5 +33,5 @@ $(document).ready(function(){
 
 
 
-    
+
   });
