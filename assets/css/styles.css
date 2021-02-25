@@ -1,3 +1,4 @@
+/*index.html*/
 body, body *{
     font-family: 'Exo', sans-serif !important;
 }
@@ -53,21 +54,29 @@ a:hover{
 .hamburger{
     visibility: hidden;
 }
+/*index.html*/
+
+/*AboutMe*/
+.about{
+	opacity: 50%;
+	font-size: 400%;
+	text-align: center;
+	margin-right: 33%;
+	margin-left: 33%;
+}
+p{
+	font-size: 150%;
+	text-align: center;
+	margin-right: 22%;
+	margin-left: 22%;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*Background Animation*/
 html, body {
   width: 100%;
   height:100%;
@@ -92,11 +101,6 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-    .logo {
-        position: relative;
-        padding-left: 3%;
-        font-size: 300%;
-    }
     .navlink{
         display: none;
     }
@@ -104,7 +108,9 @@ body {
  *, *:before, *:after {
 	 box-sizing: border-box;
 }
+/*Background Animation*/
 
+/*Hambuger Menu*/
 .hamburger{
     visibility:visible;
 }
@@ -199,4 +205,32 @@ body {
 	 width: 80%;
 	 text-align: center;
 }
+.logo {
+	position: relative;
+	padding-left: 3%;
+	font-size: 300%;
 }
+.about{
+	position: absolute;
+	font-size: 200%;
+	transform: none;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 8%;
+}
+p{
+	font-size: 110%;
+	position: absolute;
+	transform: none;
+	margin-right: 10%;
+	margin-left: 10%;
+	left: 0;
+	right: 0;
+	top: 20%;
+}
+}
+/*Hambuger Menu*/

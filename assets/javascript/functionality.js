@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-
+    $(".p").hide()
 
 
 
@@ -21,12 +21,16 @@ $(document).ready(function(){
                     return
                 })
               }
-      
     });
 
+    function fade(){
+        $(".p").fadeIn("slow",function(){
+            return
+        })
+    }
 
 
-
+    setTimeout(fade, 1000)
 
 
 
