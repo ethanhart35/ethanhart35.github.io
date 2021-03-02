@@ -272,22 +272,25 @@ body {
 /*Nav Effect */
 .one:hover~hr {
 	visibility: visible;
-	transform: translateY(1);
+	opacity: 100%;
 }
 
 .two:hover~hr {
 	visibility: visible;
 	margin-left: 38%;
+	opacity: 100%;
 }
 
 .three:hover~hr {
 	visibility: visible;
 	margin-left: 72.5%;
+	opacity: 100%;
 }
 
 hr {
 	transform: translateY(0);
 	visibility: hidden;
+	opacity: 0%;
 	margin-top: 1px;
 	margin-left: 5.5%;
 	height: .25rem;
