@@ -238,12 +238,10 @@ body {
 		position: absolute;
 		font-size: 200%;
 		transform: none;
-		width: 40%;
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 		right: 0;
-		text-align: center;
 		top: 8%;
 	}
 
@@ -256,6 +254,10 @@ body {
 		left: 0;
 		right: 0;
 		top: 20%;
+	}
+	.aboutUnderline{
+		position: absolute;
+		top: 200px;
 	}
 }
 /*Hambuger Menu*/
@@ -297,11 +299,4 @@ hr {
 	background: white;
 	width: 100%;
 	opacity: 0%;
-}
-.aboutUnderline:hover{
-	margin-left: 33%;
-	margin-right: 33%;
-	width: 33%;
-	opacity: 50%;
-	transition: .6s ease-in-out;
 }
