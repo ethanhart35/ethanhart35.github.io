@@ -232,16 +232,26 @@ p{
 }
 }
 /*Hambuger Menu*/
-/*Nav Effect */  
+
+/*Nav Effect */
+	.one:hover ~ hr {
+		visibility: visible;
+		transform: translateY(1);
+	}
+
   .two:hover ~ hr {
+	visibility: visible;
 	margin-left: 38%;
   }
   
   .three:hover ~ hr {
+	visibility: visible;
 	margin-left: 73%;
   }
   
   hr {
+	transform: translateY(0);
+	visibility: hidden;
 	margin-top: 1px;
 	margin-left: 5.5%;
 	height: .25rem;
