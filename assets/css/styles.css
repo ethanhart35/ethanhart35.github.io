@@ -108,14 +108,15 @@ body {
 		background-position: 0% 50%;
 	}
 }
+/*Background Animation*/
 
+
+
+/*Hambuger Menu*/
 @media only screen and (max-width: 1000px) {
 	.navlink {
 		display: none;
 	}
-/*Background Animation*/
-
-/*Hambuger Menu*/
 	.hamburger {
 		visibility: visible;
 	}
@@ -137,7 +138,7 @@ body {
 		z-index: 100;
 		width: 200px;
 		height: 200px;
-		background: #fff;
+		background: rgb(255, 255, 255);
 		border-radius: 50% 50% 50% 50%;
 		transition: 0.5s ease-in-out;
 		box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
@@ -277,6 +278,26 @@ body {
 .three:hover~hr {
 	visibility: visible;
 	margin-left: 72.5%;
+	opacity: 100%;
+}
+
+.four:hover~hr {
+	visibility: visible;
+	margin-left: 4%;
+	opacity: 100%;
+}
+
+.five:hover~hr {
+	visibility: visible;
+	margin-left: 35%;
+	width: 21%;
+	opacity: 100%;
+}
+
+.six:hover~hr {
+	visibility: visible;
+	margin-left: 69%;
+	width: 25%;
 	opacity: 100%;
 }
 

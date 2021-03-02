@@ -8,13 +8,13 @@ $(document).ready(function () {
     $(".logo").click(function () {
         if (this.innerHTML == "Ethan Hart") {
             $(".logo").fadeOut("slow", function () {
-                this.innerHTML = "Hello"
+                this.innerHTML = "What are you doing in my swamp?"
             })
             $(".logo").fadeIn("slow", function () {
                 return
             })
         }
-        if (this.innerHTML == "Hello") {
+        if (this.innerHTML == "What are you doing in my swamp?") {
             $(".logo").fadeOut("slow", function () {
                 this.innerHTML = "Ethan Hart"
             })
