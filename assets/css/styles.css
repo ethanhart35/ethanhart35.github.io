@@ -67,6 +67,7 @@ a:hover {
 	text-align: center;
 	margin-right: 33%;
 	margin-left: 33%;
+	margin-bottom: 0px;
 }
 
 p {
@@ -285,9 +286,22 @@ hr {
 	margin-left: 5.5%;
 	height: .25rem;
 	width: 20%;
-	background: tomato;
+	background: rgb(184, 161, 247);
 	border: none;
 	transition: .3s ease-in-out;
 }
-
 /*Nav Effect */
+
+.aboutUnderline{
+	height: .25rem;
+	background: white;
+	width: 100%;
+	opacity: 0%;
+}
+.aboutUnderline:hover{
+	margin-left: 33%;
+	margin-right: 33%;
+	width: 33%;
+	opacity: 50%;
+	transition: .6s ease-in-out;
+}
