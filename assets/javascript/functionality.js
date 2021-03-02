@@ -6,7 +6,7 @@ $(document).ready(function () {
     $(".logo").click(function () {
         if (this.innerHTML == "Ethan Hart") {
             $(".logo").fadeOut("slow", function () {
-                this.innerHTML = "Fuck Anthoney"
+                this.innerHTML = "Hello"
             })
             $(".logo").fadeIn("slow", function () {
                 return
@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
         if (this.innerHTML == "Fuck Anthoney") {
             $(".logo").fadeOut("slow", function () {
-                this.innerHTML = "Ethan Hart"
+                this.innerHTML = "Hello"
             })
             $(".logo").fadeIn("slow", function () {
                 return
