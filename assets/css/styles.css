@@ -29,6 +29,7 @@ body, body *{
 a{
     display: inline-block;
     padding: 20px;
+	padding-bottom: 2px;
     font-size: 20px;
 }
 
@@ -40,9 +41,6 @@ a:hover, a:visited, a:link, a:active
 }
 
 a:hover{
-    transition-property: font-size;
-    transition-duration: .5s;
-    font-size: 25px;
     font-weight: bolder;
     color:peachpuff;
 }
@@ -234,3 +232,22 @@ p{
 }
 }
 /*Hambuger Menu*/
+/*Nav Effect */  
+  .two:hover ~ hr {
+	margin-left: 38%;
+  }
+  
+  .three:hover ~ hr {
+	margin-left: 73%;
+  }
+  
+  hr {
+	margin-top: 1px;
+	margin-left: 5.5%;
+	height: .25rem;
+	width: 20%;
+	background: tomato;
+	border: none;
+	transition: .3s ease-in-out;
+  }
+/*Nav Effect */  
