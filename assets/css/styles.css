@@ -112,18 +112,9 @@ body {
 	.navlink {
 		display: none;
 	}
+/*Background Animation*/
 
-	@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-
-	*,
-	*:before,
-	*:after {
-		box-sizing: border-box;
-	}
-
-	/*Background Animation*/
-
-	/*Hambuger Menu*/
+/*Hambuger Menu*/
 	.hamburger {
 		visibility: visible;
 	}
@@ -266,7 +257,6 @@ body {
 		top: 20%;
 	}
 }
-
 /*Hambuger Menu*/
 
 /*Nav Effect */

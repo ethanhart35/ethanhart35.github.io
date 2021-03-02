@@ -6,13 +6,13 @@ $(document).ready(function () {
     $(".logo").click(function () {
         if (this.innerHTML == "Ethan Hart") {
             $(".logo").fadeOut("slow", function () {
-                this.innerHTML = "Hello There"
+                this.innerHTML = "Fuck Anthoney"
             })
             $(".logo").fadeIn("slow", function () {
                 return
             })
         }
-        if (this.innerHTML == "Hello There") {
+        if (this.innerHTML == "Fuck Anthoney") {
             $(".logo").fadeOut("slow", function () {
                 this.innerHTML = "Ethan Hart"
             })
