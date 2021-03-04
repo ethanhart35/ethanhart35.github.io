@@ -2,6 +2,7 @@
 body,
 body * {
 	font-family: 'Exo', sans-serif !important;
+	overflow-x: hidden;
 }
 
 .div {
