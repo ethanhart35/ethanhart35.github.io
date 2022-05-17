@@ -7,6 +7,11 @@ body * {
 	padding: 0%;
 }
 
+.banner {
+	background-color: #181818;
+	height: 50px;
+}
+
 .logo {
 	display: block;
 	margin-left: 3%;
