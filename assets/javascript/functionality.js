@@ -14,7 +14,7 @@ $(document).ready(function () {
                 return
             })
         }
-        if (this.innerHTML == "What are you doing in my swamp?") {
+        if (this.innerHTML == "Hello!") {
             $(".logo").fadeOut("slow", function () {
                 this.innerHTML = "Ethan Hart"
             })
