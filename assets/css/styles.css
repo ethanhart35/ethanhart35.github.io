@@ -102,11 +102,12 @@ body * {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .container img {
-	height: 100px;
-	width: auto;
+	height: auto;
+	max-width: 150px;
 	border-radius: 5px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
 }
