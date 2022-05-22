@@ -33,10 +33,12 @@ a {
 	color: #05FDD8;
 	background-color: rgba(36, 36, 36, 0.00);
 	padding: 0 5px 0 5px;
+	border-right: 1px solid #FFFFFF;
 }
 
 a:nth-last-of-type(1) {
 	padding: 0 15px 0 5px;
+	border: none;
 }
 
 .logo {
