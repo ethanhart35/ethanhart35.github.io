@@ -80,7 +80,8 @@ body * {
 }
 
 .projects {
-	height: 400px;
+	min-height: 400px;
+	max-height: 500px;
 	background-color: rgba(36, 36, 36, 0.0);
 }
 
@@ -133,4 +134,15 @@ body * {
 	background-color: #FFFFFF;
 	font-size: 150%;
 	font-weight: 5000;
+}
+
+input {
+	border: none;
+}
+
+button {
+	color: #1D1D1D;
+	background-color: white;
+	width: 50px;
+	border: none;
 }
