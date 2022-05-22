@@ -146,10 +146,10 @@ body * {
 
 form {
 	background-color: #1d1d1df1;
-	padding: 15% 15% 15% 15%;
+	padding: 5%;
 	text-align: center;
-	margin: 50px;
 	border-radius: 10px;
+	max-width: 300px;
 }
 
 input {
@@ -167,12 +167,14 @@ textarea {
 	margin: 5px 0 0 0;
 	padding: 5px 0 0 5px;
 	max-width: 200px;
+	min-width: 100px;
 	color: #FFFFFF;
 }
 
 button {
 	color: #1D1D1D;
 	background-color: #05FDD8;
+	margin: 20px 0 0 0;
 	width: 100px;
 	height: 30px;
 	border: none;
