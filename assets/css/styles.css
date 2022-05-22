@@ -108,19 +108,19 @@ a:nth-last-of-type(1) {
 	padding: 30px;
 }
 
-.container {
+.project-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-.container img {
+.project-container img {
 	height: 150px;
 	max-width: 150px;
 	border-radius: 5px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
-	margin: 5px 0 5px 0;
+	margin: 10px 0 10px 0;
 }
 
 .split3 {
@@ -130,7 +130,7 @@ a:nth-last-of-type(1) {
 }
 
 .contact {
-	height: 400px;
+	height: 500px;
 	background-color: #FFFFFF;
 	box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, .2);
 }
