@@ -222,3 +222,7 @@ footer {
 ::-webkit-scrollbar {
 	display: none;
 }
+
+::-webkit-appearance {
+	display: none;
+}
