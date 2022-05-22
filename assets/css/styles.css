@@ -23,12 +23,16 @@ body * {
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
 	background-color: rgba(36, 36, 36, 0.15);
 	backdrop-filter: blur(8px);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .navbar a {
 	text-decoration: none;
 	color: #05FDD8;
 	background-color: rgba(36, 36, 36, 0.00);
+	padding: 0 10px 0 10px;
 }
 
 .logo {
@@ -78,6 +82,7 @@ body * {
 
 .projects {
 	height: 400px;
+	background-color: rgba(36, 36, 36, 0.0);
 }
 
 .projects h2 {
@@ -107,9 +112,25 @@ body * {
 	height: auto;
 	max-width: 150px;
 	border-radius: 5px;
-	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
 }
 
-::-webkit-scrollbar {
-	width: 0px;
+.split3 {
+	clip-path: polygon(0 85%, 100% 12%, 100% 100%, 0 100%);
+	background-color: #FFFFFF;
+	height: 100px;
+}
+
+.contact {
+	height: 400px;
+	background-color: #FFFFFF;
+}
+
+.contact h2 {
+	width: 100%;
+	text-align: center;
+	color: #05FDD8;
+	background-color: #FFFFFF;
+	font-size: 150%;
+	font-weight: 5000;
 }
