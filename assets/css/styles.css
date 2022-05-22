@@ -158,7 +158,7 @@ input {
 	background-color: #1D1D1D;
 	color: #FFFFFF;
 	height: 30px;
-	max-width: 200px;
+	width: 200px;
 	padding: 0 0 0 5px;
 	margin: 5px 0 5px 0;
 }
