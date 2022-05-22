@@ -118,9 +118,18 @@ a:nth-last-of-type(1) {
 .project-container img {
 	height: 150px;
 	max-width: 150px;
+	scale: 1;
 	border-radius: 5px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
 	margin: 10px 0 10px 0;
+	transition: all .2s ease-in-out;
+}
+
+.project-container img:hover {
+	border-radius: 5px;
+	box-shadow: 0 0 1rem 0 #05fdd84f;
+	transform: scale(1.1);
+	transition: all .2s ease-in-out;
 }
 
 .split3 {
@@ -188,6 +197,14 @@ button {
 	height: 30px;
 	border: none;
 	border-radius: 2px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: ease-in-out .2s;
+}
+
+button:hover {
+	background-color: #FFFFFF;
+	transition: ease-in-out .2s;
 }
 
 footer {
