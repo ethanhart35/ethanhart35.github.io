@@ -72,9 +72,14 @@ body * {
 .about p {
 	color: #1D1D1D;
 	background-color: #FFFFFF;
-	height: 300px;
+	max-height: 400px;
+	min-height: 300px;
 	text-align: center;
 	padding: 30px;
+}
+
+.projects {
+	height: 400px;
 }
 
 .projects h2 {
@@ -97,7 +102,6 @@ body * {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	height: 300px;
 }
 
 .container img {
