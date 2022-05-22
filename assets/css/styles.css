@@ -28,12 +28,25 @@ body * {
 	align-items: center;
 }
 
+.navbar img {
+	width: 60px;
+	position: absolute;
+	left: 3px;
+	opacity: 50%;
+}
+
 a {
 	text-decoration: none;
 	color: #05FDD8;
 	background-color: rgba(36, 36, 36, 0.00);
 	padding: 0 5px 0 5px;
 	border-right: 1px solid #ffffffb7;
+	transition: ease-in-out .2s;
+}
+
+a:hover {
+	transition: ease-in-out .2s;
+	color: #FFFFFF;
 }
 
 a:nth-last-of-type(1) {
