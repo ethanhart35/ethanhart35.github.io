@@ -44,7 +44,7 @@ a:nth-last-of-type(1) {
 .logo {
 	margin-top: 300px;
 	padding-left: 30px;
-	text-align: left;
+	text-align: center;
 	font-size: 150%;
 	font-weight: bold;
 	color: #FFFFFF;
