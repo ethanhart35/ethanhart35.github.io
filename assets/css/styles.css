@@ -155,7 +155,8 @@ a:nth-last-of-type(1) {
 }
 
 .contact {
-	height: 500px;
+	max-height: 700px;
+	min-height: 500px;
 	background-color: #FFFFFF;
 	box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, .2);
 }
