@@ -107,6 +107,19 @@ a:nth-last-of-type(1) {
 	margin-top: -1px;
 }
 
+.about img {
+	height: 50px;
+	width: auto;
+	background-color: #FFFFFF;
+}
+
+.about-img-wrapper {
+	height: 50px;
+	width: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
 .projects {
 	min-height: 400px;
 	max-height: 800px;
