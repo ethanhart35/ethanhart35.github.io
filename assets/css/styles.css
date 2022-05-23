@@ -69,14 +69,15 @@ a:nth-last-of-type(1) {
 .split {
 	clip-path: polygon(0 85%, 100% 12%, 100% 100%, 0 100%);
 	background-color: #FFFFFF;
+	margin: 350px 0 -1px 0;
 	height: 100px;
-	margin-top: 350px;
 }
 
 .split2 {
 	clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
 	background-color: #FFFFFF;
 	height: 100px;
+	margin-top: -1px;
 }
 
 .about h2 {
@@ -148,6 +149,7 @@ a:nth-last-of-type(1) {
 	clip-path: polygon(0 85%, 100% 12%, 100% 100%, 0 100%);
 	background-color: #FFFFFF;
 	height: 100px;
+	margin-bottom: -1px;
 }
 
 .contact {
@@ -232,10 +234,6 @@ footer {
 }
 
 ::-webkit-scrollbar {
-	display: none;
-}
-
-::-webkit-appearance {
 	display: none;
 }
 
