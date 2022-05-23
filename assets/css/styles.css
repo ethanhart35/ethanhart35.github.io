@@ -96,6 +96,7 @@ a:nth-last-of-type(1) {
 	min-height: 200px;
 	text-align: center;
 	padding: 30px;
+	margin-top: -1px;
 }
 
 .projects {
