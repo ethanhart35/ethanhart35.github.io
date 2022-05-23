@@ -169,6 +169,21 @@ a:nth-last-of-type(1) {
 	font-weight: 5000;
 }
 
+.contact img {
+	height: 30px;
+	width: auto;
+	background-color: #FFFFFF;
+	margin: 0 5px 0 5px;
+}
+
+.contact-img-wrapper {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0 0 0;
+}
+
 .contact-form-wrapper {
 	background-color: #FFFFFF;
 	margin: 30px 0 0 0;
