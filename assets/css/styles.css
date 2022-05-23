@@ -80,6 +80,13 @@ a:nth-last-of-type(1) {
 	margin-top: -1px;
 }
 
+.split3 {
+	clip-path: polygon(0 85%, 100% 12%, 100% 100%, 0 100%);
+	background-color: #FFFFFF;
+	height: 100px;
+	margin-bottom: -1px;
+}
+
 .about h2 {
 	width: 100%;
 	text-align: center;
@@ -87,6 +94,7 @@ a:nth-last-of-type(1) {
 	background-color: #FFFFFF;
 	font-size: 150%;
 	font-weight: 5000;
+	margin-bottom: -1px;
 }
 
 .about p {
@@ -144,13 +152,6 @@ a:nth-last-of-type(1) {
 	box-shadow: 0 0 1rem 0 #05fdd84f;
 	transform: scale(1.1);
 	transition: all .2s ease-in-out;
-}
-
-.split3 {
-	clip-path: polygon(0 85%, 100% 12%, 100% 100%, 0 100%);
-	background-color: #FFFFFF;
-	height: 100px;
-	margin-bottom: -1px;
 }
 
 .contact {
