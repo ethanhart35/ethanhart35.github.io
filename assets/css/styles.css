@@ -55,7 +55,7 @@ a:nth-last-of-type(1) {
 
 .logo {
 	margin-top: 300px;
-	padding-left: 30px;
+	padding: 0 20px 0 20px;
 	text-align: center;
 	font-size: 150%;
 	font-weight: bold;
