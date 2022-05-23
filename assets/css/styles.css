@@ -118,6 +118,7 @@ a:nth-last-of-type(1) {
 	width: auto;
 	background-color: #FFFFFF;
 	text-align: center;
+	margin-top: -1px;
 }
 
 .projects {
