@@ -275,7 +275,7 @@ footer {
 }
 
 .thanks2 {
-	margin-bottom: 173px;
+	margin-bottom: 80px;
 }
 
 .thanks-container {
@@ -294,10 +294,18 @@ footer {
 	margin: 0 10px 0 10px;
 }
 
-.thanks-container button {
-	margin-top: 50px;
+.back-container a {
+	border-radius: 4px;
+	background-color: #05FDD8;
+	color: #1D1D1D;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
 }
 
+.back-container {
+	text-align: center;
+	margin: 0 0 344px 0;
+}
 
 
 
