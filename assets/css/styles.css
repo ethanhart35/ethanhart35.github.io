@@ -269,6 +269,35 @@ footer {
 	display: none;
 }
 
+/* Thank you page */
+.thanks {
+	margin-top: 200px;
+}
+
+.thanks2 {
+	margin-bottom: 173px;
+}
+
+.thanks-container {
+	text-align: center;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+}
+
+.thanks-container h1,
+h2 {
+	background-color: #FFFFFF;
+	margin: 0 10px 0 10px;
+}
+
+.thanks-container button {
+	margin-top: 50px;
+}
+
+
+
+
+
 /* DESKTOP VERSION BELOW */
 
 @media only screen and (min-width: 600px) {
