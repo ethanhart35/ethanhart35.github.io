@@ -284,8 +284,12 @@ footer {
 	background-color: #FFFFFF;
 }
 
-.thanks-container h1,
-h2 {
+.thanks-container h1 {
+	background-color: #FFFFFF;
+	margin: 0 10px 0 10px;
+}
+
+.thanks-container h2 {
 	background-color: #FFFFFF;
 	margin: 0 10px 0 10px;
 }
