@@ -269,13 +269,19 @@ footer {
 	display: none;
 }
 
-/* Thank you page */
-.thanks {
-	margin-top: 200px;
+/* THANK YOU PAGE */
+.thank-split {
+	clip-path: polygon(0 0, 100% 40%, 100% 100%, 0% 100%);
+	background-color: #FFFFFF;
+	margin: 150px 0 -1px 0;
+	height: 100px;
 }
 
-.thanks2 {
-	margin-bottom: 80px;
+.thank-split2 {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+	background-color: #FFFFFF;
+	height: 100px;
+	margin: -1px 0 80px 0;
 }
 
 .thanks-container {
@@ -299,7 +305,7 @@ footer {
 	background-color: #05FDD8;
 	color: #1D1D1D;
 	font-weight: bold;
-	padding: 10px 20px 10px 20px;
+	padding: 15px 35px 15px 35px;
 }
 
 .back-container {
