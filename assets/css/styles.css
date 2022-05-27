@@ -209,10 +209,13 @@ a:nth-last-of-type(1) {
 
 form {
 	background-color: #1d1d1df1;
-	padding: 5%;
+	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
-	max-width: 300px;
+	width: 40%;
+	max-width: 350px;
+	min-width: 300px;
+	height: 300px;
 }
 
 input {
@@ -221,15 +224,15 @@ input {
 	background-color: #1D1D1D;
 	color: #FFFFFF;
 	height: 30px;
-	width: 200px;
+	width: 90%;
 	padding: 0 0 0 5px;
 	margin: 5px 0 5px 0;
 }
 
 textarea {
-	margin: 5px 0 0 0;
+	margin: 15px 0 0 0;
 	padding: 5px 0 0 5px;
-	width: 200px;
+	width: 90%;
 	resize: none;
 	border: none;
 	color: #FFFFFF;
@@ -238,9 +241,9 @@ textarea {
 button {
 	color: #1D1D1D;
 	background-color: #05FDD8;
-	margin: 20px 0 0 0;
-	width: 100px;
-	height: 30px;
+	margin: 50px 0 0 0;
+	width: 150px;
+	height: 40px;
 	border: none;
 	border-radius: 2px;
 	font-weight: bold;
