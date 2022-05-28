@@ -144,6 +144,10 @@ a:hover {
 	padding: 30px;
 }
 
+.projects a {
+	border: none;
+}
+
 .project-container {
 	display: flex;
 	align-items: center;
