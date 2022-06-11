@@ -38,7 +38,7 @@ a {
 	text-decoration: none;
 	color: #05FDD8;
 	background-color: rgba(36, 36, 36, 0.00);
-	padding: 0 5px 0 5px;
+	padding: 0 20px 0 20px;
 	border-right: 1px solid #ffffffb7;
 	transition: ease-in-out .2s;
 }
@@ -141,7 +141,7 @@ a:hover {
 	color: #FFFFFF;
 	background-color: rgba(36, 36, 36, 0);
 	text-align: center;
-	padding: 30px;
+	padding: 30px 30px 50px 30px;
 }
 
 .projects a {
@@ -151,7 +151,7 @@ a:hover {
 .project-container {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
