@@ -157,8 +157,8 @@ a:hover {
 }
 
 .project-container img {
-	height: 150px;
-	max-width: 150px;
+	height: 250px;
+	max-width: 250px;
 	scale: 1;
 	border-radius: 5px;
 	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
@@ -171,6 +171,20 @@ a:hover {
 	box-shadow: 0 0 1rem 0 #05fdd84f;
 	transform: scale(1.1);
 	transition: all .2s ease-in-out;
+	filter: blur(1px);
+}
+
+.project-name {
+	position: relative;
+	opacity: 0;
+	background-color: #1d1d1d00;
+	transition: all .2 ease-in-out;
+	text-align: center;
+}
+
+.project-container a:hover .project-name {
+	opacity: 1;
+	transition: all 1s ease-in-out;
 }
 
 .contact {
