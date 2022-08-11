@@ -63,6 +63,7 @@ a:hover {
 }
 
 .logo-h1 {
+	margin-top: 50px;
 	opacity: 0;
 	animation: fadein 1s forwards 5s;
 }
