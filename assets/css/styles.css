@@ -368,6 +368,7 @@ h6 {
 #logoname path:nth-child(1) {
 	stroke-dasharray: 370.17px;
 	stroke-dashoffset: 370.17px;
+	stroke-linejoin: round;
 	animation: logo-animate 1.5s linear forwards, fill 1s ease forwards 1.5s;
 }
 
@@ -398,6 +399,7 @@ h6 {
 #logoname path:nth-child(6) {
 	stroke-dasharray: 388.06px;
 	stroke-dashoffset: 388.06px;
+	stroke-linejoin: round;
 	animation: logo-animate 1.5s linear forwards, fill 1s ease forwards 1.5s;
 }
 
