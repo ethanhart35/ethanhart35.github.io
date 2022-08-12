@@ -384,25 +384,25 @@ h6 {
 #logoname path:nth-child(6) {
 	stroke-dasharray: 388.06px;
 	stroke-dashoffset: 388.06px;
-	animation: logo-animate 2s ease forwards 2s;
+	animation: logo-animate 2s ease forwards 2.5s;
 }
 
 #logoname path:nth-child(7) {
 	stroke-dasharray: 403.06px;
 	stroke-dashoffset: 403.06px;
-	animation: logo-animate 2s ease forwards 2.4s;
+	animation: logo-animate 2s ease forwards 2.9s;
 }
 
 #logoname path:nth-child(8) {
 	stroke-dasharray: 453.44px;
 	stroke-dashoffset: 453.44px;
-	animation: logo-animate 2s ease forwards 2.8s;
+	animation: logo-animate 2s ease forwards 3.3s;
 }
 
 #logoname path:nth-child(9) {
 	stroke-dasharray: 254.54px;
 	stroke-dashoffset: 254.54px;
-	animation: logo-animate 2s ease forwards 3.2s;
+	animation: logo-animate 2s ease forwards 3.7s;
 }
 
 @keyframes logo-animate {
