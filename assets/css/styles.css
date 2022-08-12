@@ -136,10 +136,13 @@ a:hover {
 }
 
 .projects {
-	min-height: 400px;
-	max-height: 1400px;
+	min-height: 1700px;
+	max-height: 3000px;
 	background-color: rgba(36, 36, 36, 0);
 	margin: 50px 0 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .projects h2 {
@@ -202,8 +205,8 @@ a:hover {
 }
 
 .contact {
-	max-height: 700px;
-	min-height: 1000px;
+	max-height: 800px;
+	min-height: 800px;
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -218,7 +221,7 @@ a:hover {
 	background-color: #FFFFFF;
 	font-size: 150%;
 	font-weight: 5000;
-	padding: 0 0 50px 0
+	padding: 100px 0 50px 0
 }
 
 .contact img {
@@ -233,7 +236,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 80px;
+	padding: 50px 0 20px 0;
 }
 
 .contact-form-wrapper {
