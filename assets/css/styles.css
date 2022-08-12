@@ -93,6 +93,14 @@ a:hover {
 	margin-bottom: -1px;
 }
 
+.about {
+	background-color: white;
+	min-height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .about h2 {
 	width: 100%;
 	text-align: center;
@@ -195,8 +203,11 @@ a:hover {
 
 .contact {
 	max-height: 700px;
-	min-height: 550px;
+	min-height: 1000px;
 	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, .2);
 }
 
@@ -207,6 +218,7 @@ a:hover {
 	background-color: #FFFFFF;
 	font-size: 150%;
 	font-weight: 5000;
+	padding: 0 0 50px 0
 }
 
 .contact img {
@@ -221,12 +233,11 @@ a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 80px 0 50px 0;
+	padding: 80px;
 }
 
 .contact-form-wrapper {
 	background-color: #FFFFFF;
-	margin: 30px 0 0 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -430,6 +441,21 @@ h6 {
 		opacity: 1;
 	}
 }
+
+
+.reveal {
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: 2s all ease;
+}
+
+.reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
 
 /* DESKTOP VERSION BELOW */
 
